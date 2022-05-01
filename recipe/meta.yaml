@@ -1,5 +1,5 @@
 {% set name = "semi-ate-project-database" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/semi-ate-project-database-{{ version }}.tar.gz
-  sha256: a3f70646432bf49848a699cce6bd109ba5f0ebd9f3fb4a1ac1c7f51e9b69c09d
+  sha256: 670bf50819f0e8581492c68ac44b86b70490613d7fe88f067c589e0bd2557801
 
 build:
   noarch: python
